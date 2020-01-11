@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>This is an home page(´• ω •)</h1>
+    <h1>This is a third page(─‿‿─)</h1>
   </div>
 </template>
