@@ -1,8 +1,8 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import About from '../views/About.vue'
-import Third from '../views/Third.vue'
+import On from '../views/on.vue'
+import Off from '../views/off.vue'
 
 Vue.use(VueRouter)
 
@@ -13,14 +13,14 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    name: 'about',
-    component: About
+    path: '/on',
+    name: 'on',
+    component: On
   },
   {
-    path: '/third',
-    name: 'third',
-    component: Third
+    path: '/off',
+    name: 'off',
+    component: Off
   }
 ]
 
